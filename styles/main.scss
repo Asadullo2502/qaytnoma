@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+.todo-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.edit-input:disabled {
+    background: white;
+    border: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+
+}
+
+.edit-input {
+    background: white;
+    border: none;
+    color: black;
+    
+    
+
+}
+
+.edit-input:focus {
+    outline: none;
+    border-bottom: 2px solid #0d6efd;
+
+}
